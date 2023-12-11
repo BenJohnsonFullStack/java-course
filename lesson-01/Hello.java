@@ -2,18 +2,8 @@ class Hello
 {
     public static void main(String a[]) 
     {
-       int num1 = 9;
-       byte by = 127;
-       short sh = 558;
-       long l = 5854;
-
-       float f = 5.8f;
-       double d = 5.8;
-
-       char c = 'k';
-
-       boolean bool = true;
-        // System.out.println(isActive);
+        byte num1 = 10;
+        System.out.println(num1);
     }
 }
 
