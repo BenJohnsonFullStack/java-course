@@ -2,18 +2,15 @@ class Hello
 {
     public static void main(String args[]) 
     {
-       int num = 7;
-    //    int num2 = 5;
+       
+        int x = 7;
+        int y = 5;
+        int a = 5;
+        int b = 9;
 
-    //    float result = (float) num1 / num2;
+        boolean result = a > b;
 
-    // num++     // post-increment
-    // ++num;    // pre-increment
-
-    int result = num++; // fetch the value, then increment (two statements)
-    // int result = ++num  // increment, then fetch value 
-
-        System.out.println(result);
+        System.out.println(!result);
     }
 }
 
