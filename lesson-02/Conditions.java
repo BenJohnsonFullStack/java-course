@@ -3,16 +3,10 @@ class Conditions
     public static void main(String args[]) 
     {
 
-        int x = 8;
-        int y = 10;
+        int n = 4;
 
-        if(x > y) {
-            System.out.println(x);
+        boolean result = n != 4 ? true : false;
 
-        } 
-        else {
-            
-            System.out.println(y);
-        }
+        System.out.println(result);
     }
 }
