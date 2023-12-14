@@ -3,7 +3,7 @@ class Conditions
     public static void main(String args[]) 
     {
 
-        int n = 5;
+        int n = 8;
 
         switch(n)
         {
@@ -35,6 +35,8 @@ class Conditions
             System.out.println("Sunday");
             break;
            
+            default: 
+            System.out.println("Please enter a valid number.");
         }
     }
 }
