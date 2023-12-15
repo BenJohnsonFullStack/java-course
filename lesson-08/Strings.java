@@ -3,14 +3,15 @@
 class Strings {
     public static void main(String a[])
     {
-        String name = "Navin";
-        name = name + " Reddy";
+        StringBuffer sb = new StringBuffer("Navin");
+        sb.append(" Reddy");
 
-        System.out.println("Hello, " + name);
+        sb.insert(0, "Java ");
+        sb.setLength(30);
+        sb.ensureCapacity(100);
 
-        String s1 = "Navin";
-        String s2 = "Navin";
+        System.out.println(sb);
 
-        System.out.println(s1 == s2);
+        
     }
 }
